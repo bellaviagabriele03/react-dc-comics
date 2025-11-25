@@ -1,0 +1,8 @@
+.footerTop {
+    background-image: url("../assets/img/footer-bg.jpg");
+    color: white;
+}
+
+.col {
+    width: 30%;
+}
