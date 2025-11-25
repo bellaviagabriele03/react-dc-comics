@@ -1,8 +1,20 @@
 .footerTop {
     background-image: url("../assets/img/footer-bg.jpg");
-    color: white;
+    color: gray;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.footerBottom {
+    background-color: darkgray;
 }
 
 .col {
     width: 30%;
+}
+
+.titleList {
+    margin-bottom: 15px;
+    color: white;
 }
