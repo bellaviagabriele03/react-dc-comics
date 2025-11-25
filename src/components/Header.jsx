@@ -1,9 +1,9 @@
-
+import Logo from "./Logo"
 
 export default function Header() {
     return (
-        <header className="d-flex justify-content-around py-40">
-            logo
+        <header className="d-flex justify-content-around py-40 align-items-center">
+            <Logo />
             <nav>
                 <ul className="d-flex gap-20">
                     <li>link</li>
