@@ -62,7 +62,7 @@ export default function Header() {
                 <ul className="d-flex gap-20">
                     {headerLinks.map(function (curLink) {
                         return (
-                            <li className={curLink.active ? "active" : ""}>{curLink.title}</li>
+                            <li className={curLink.active ? "active" : ""}><a href="">{curLink.title}</a></li>
                         )
                     })}
                 </ul>

@@ -6,3 +6,12 @@
 .text {
     color: white;
 }
+
+.col {
+    width: calc(100% / 6);
+}
+
+.col img {
+    width: 130px;
+    height: 130px;
+}
