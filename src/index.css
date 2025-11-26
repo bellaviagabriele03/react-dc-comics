@@ -105,6 +105,18 @@ body {
     background-color: black
 }
 
+
+.banner {
+    height: 400px;
+    background-image: url(./assets/img/jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+
+
+    
 /* DEGUB */
 /* .text-center {
     text-align: center;
