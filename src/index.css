@@ -101,6 +101,10 @@ body {
     margin-bottom: 5px;
 }
 
+.bg-gray {
+    background-color: black
+}
+
 /* DEGUB */
 /* .text-center {
     text-align: center;
