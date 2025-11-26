@@ -24,6 +24,14 @@ body {
 
 /* UTILITIES */
 
+
+.active {
+    padding-bottom: 10px;
+    color: blue;
+    border-bottom: 3px solid blue;
+    border-radius: 5px;
+}
+
 .d-flex {
     display: flex;
 }

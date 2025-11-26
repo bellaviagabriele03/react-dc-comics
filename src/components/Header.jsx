@@ -1,5 +1,58 @@
 import Logo from "./Logo"
 
+const headerLinks = [
+    {
+        title: "CHARACTERS",
+        path: "/characters",
+        active: false,
+    },
+    {
+        title: "COMICS",
+        path: "/comics",
+        active: false,
+    },
+    {
+        title: "MOVIES",
+        path: "/movies",
+        active: false,
+    },
+    {
+        title: "TV",
+        path: "/tv",
+        active: false,
+    },
+    {
+        title: "GAMES",
+        path: "/games",
+        active: true,
+    },
+    {
+        title: "COLLECTIBLES",
+        path: "/collectibles",
+        active: false,
+    },
+    {
+        title: "VIDEOS",
+        path: "/videos",
+        active: false,
+    },
+    {
+        title: "FANS",
+        path: "/fans",
+        active: false,
+    },
+    {
+        title: "NEWS",
+        path: "/news",
+        active: false,
+    },
+    {
+        title: "SHOP",
+        path: "/shop",
+        active: false,
+    },
+]
+
 export default function Header() {
     return (
         <header className="py-20">
@@ -7,16 +60,11 @@ export default function Header() {
             <nav className=" container align-items-center justify-content-between d-flex">
                 <Logo />
                 <ul className="d-flex gap-20">
-                    <li><a href="">CHARACTERS</a></li>
-                    <li><a href="">COMICS</a></li>
-                    <li><a href="">MOVIES</a></li>
-                    <li><a href="">TV</a></li>
-                    <li><a href="">GAMES</a></li>
-                    <li><a href="">COLLECTIBLES</a></li>
-                    <li><a href="">VIDEOS</a></li>
-                    <li><a href="">FANS</a></li>
-                    <li><a href="">NEWS</a></li>
-                    <li><a href="">SHOP</a></li>
+                    {headerLinks.map(function (curLink) {
+                        return (
+                            <li className={curLink.active ? "active" : ""}>{curLink.title}</li>
+                        )
+                    })}
                 </ul>
             </nav>
 
