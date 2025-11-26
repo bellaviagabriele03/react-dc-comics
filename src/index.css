@@ -49,7 +49,7 @@ body {
 }
 
 .gap-20 {
-    gap: 20px;
+    gap: 10px;
 }
 
 .flex-column {
@@ -64,7 +64,7 @@ body {
 /* LAYOUT */
 
 .container {
-    width: 80%;
+    width: 90%;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -72,6 +72,10 @@ body {
 .py-40 {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.py-20 {
+    padding: 20px 0px;
 }
 
 .mx-20 {
