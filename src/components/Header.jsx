@@ -61,7 +61,7 @@ export default function Header() {
 
             <nav className=" container align-items-center justify-content-between d-flex">
                 <Logo />
-                <ul className="d-flex gap-20">
+                <ul className="d-flex gap-10">
                     {headerLinks.map(function (curLink, index) {
                         return (
                             <li key={index} className={curLink.active ? "active" : ""}><a href="">{curLink.title}</a></li>

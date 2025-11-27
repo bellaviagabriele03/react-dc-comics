@@ -8,7 +8,7 @@ export default function Footer() {
         <footer className={footerTop} >
             <div className="container">
                 <section>
-                    <nav className="d-flex gap-20 py-40">
+                    <nav className="d-flex gap-10 py-40">
 
                         <div className={style.col}>
                             <h3 className={style.titleList}>DC COMICS</h3>
@@ -80,7 +80,7 @@ export default function Footer() {
             </div>
             <section className={style.footerBot}>
                 <a className={style.btn} href="">SIGN-UP NOW!</a>
-                <ul className="d-flex gap-20">
+                <ul className="d-flex gap-10">
                     <li><a href="">link</a></li>
                     <li><a href="">link</a></li>
                     <li><a href="">link</a></li>

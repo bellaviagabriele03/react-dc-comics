@@ -9,7 +9,7 @@ export default function Card(props) {
 
             title: props.title,
             text: props.text,
-
+            
         },
         {
 
