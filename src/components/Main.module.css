@@ -7,3 +7,9 @@
     color: white;
 }
 
+.btnMain {
+    background-color: blue;
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+}
+
