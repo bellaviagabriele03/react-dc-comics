@@ -9,7 +9,7 @@ export default function Card(props) {
 
             title: props.title,
             text: props.text,
-            
+
         },
         {
 
@@ -56,16 +56,18 @@ export default function Card(props) {
 
                 return (
 
+
                     <div key={index} className={style.card}>
 
-                        <img src={curElem.thumb} alt="" />
+                        <a href=""><img src={curElem.thumb} alt="" /></a>
                         <p>{curElem.title}</p>
 
                     </div>
+
                 )
             })}
 
-            {ArrayProp.map(function(curElem, index){
+            {ArrayProp.map(function (curElem, index) {
                 return (
                     <div key={index} className={style.card}>
                         <h4 className={style.titleCardProp}>{curElem.title}</h4>

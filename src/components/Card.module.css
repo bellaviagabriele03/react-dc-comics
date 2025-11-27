@@ -12,7 +12,10 @@
     border-bottom: 2px solid white;
 }
 
-
+.card img:hover {
+    transform: rotate(5deg);
+    
+}
 
 
 .textCardProp {
