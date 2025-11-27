@@ -1,0 +1,8 @@
+.card {
+    width: calc(100%/ 6);
+}
+
+.card img {
+    width: 130px;
+    height: 130px;
+}
