@@ -1,8 +1,21 @@
 .card {
-    width: calc(100%/ 6);
+    width: calc(100% / 6);
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10px;
 }
 
-.card img {
+/* .card img {
     width: 130px;
     height: 130px;
+} */
+
+
+
+.textCardProp {
+    color: blueviolet;
+}
+
+.titleCardProp {
+    color: darkred;
 }

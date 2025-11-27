@@ -10,7 +10,7 @@ export default function Main() {
         <main className={className}>
             <div className="container">
                 <div className="d-flex flex-wrap">
-                    <Card text="Ciao sono un testo" />
+                    <Card title="Questa è una card creata tramite PROPS !!!" text="Spero che Loris sia fiero ;)"/>
                 </div>
             </div>
         </main>

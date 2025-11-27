@@ -59,6 +59,9 @@ body {
 .gap-20 {
     gap: 10px;
 }
+.gap-5 {
+    gap: 5px;
+}
 
 .flex-column {
     flex-direction: column;
